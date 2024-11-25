@@ -23,7 +23,7 @@ A robust Express.js weather API that provides weather information using Visual C
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/weather-api-project.git
+git clone https://github.com/yourusername/weather-api-project.git](https://github.com/Aymen-Guerrouf/weatherApi.git
 cd weather-api-project
 ```
 
