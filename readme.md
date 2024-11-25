@@ -23,7 +23,7 @@
         <h3>1. Clone the Repository</h3>
         <pre><code>git clone https://github.com/Aymen-Guerrouf/weather-api.git
 
-cd weather-api-project</code></pre>
+</pre>
 
         <h3>2. Install Dependencies</h3>
         <pre><code>npm install</code></pre>
@@ -62,8 +62,6 @@ npm start</code></pre>
         <pre><code>GET /api/weather?location=madrid
 
 GET /api/weather?location=london&startDate=2024-01-01&endDate=2024-01-07</code></pre>
-
-</section>
 
 <br>
 
