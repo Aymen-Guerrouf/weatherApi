@@ -122,3 +122,6 @@ GET /api/weather?location=london&startDate=2024-01-01&endDate=2024-01-07
 - Graceful error middleware
 - Detailed error responses
 
+## Project URL
+https://roadmap.sh/projects/weather-api-wrapper-service
+
