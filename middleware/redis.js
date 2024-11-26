@@ -31,8 +31,8 @@ function requestToKey(req) {
     body: req.body,
   };
 
-  // `${req.path}@...` to make it easier to find
-  // keys on a Redis client
+ 
+  
   return `${req.path}@${hash.sha1(reqDataToHash)}`;
 }
 
@@ -82,7 +82,7 @@ function redisCachingMiddleware(
           return res.send(cachedValue);
         }
       } else {
-        // override how res.send behaves
+        
         // to introduce the caching logic
         const oldSend = res.send;
         res.send = function (data) {
